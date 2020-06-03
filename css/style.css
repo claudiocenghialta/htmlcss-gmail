@@ -44,9 +44,12 @@ section {
 }
 #circle {
     background-color: orange;
-    padding: 5px;
     border-radius: 50%;
     text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
 }
 main {
     margin: 5px 10px;
