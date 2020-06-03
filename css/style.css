@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background-image: url('../img/sfondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+}
+
+.container {
+    background-color: rgb(238, 238, 238, 0.25);
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 20px;
+    }
+
+header {
+    margin: 5px 10px;
+    border-bottom: 1px solid darkgrey;
+}
+
+#title {
+    color: white;
+    display: inline-block;
+}
+section {
+    margin: 5px 10px;
+    border-bottom: 1px solid darkgrey;
+}
+#button {
+    width: 50px;
+}
+#sectionTop>h2 {
+    box-sizing: content-box;
+    margin: 10px 0;
+    color: white;
+}
+#circle {
+    background-color: orange;
+    padding: 5px;
+    border-radius: 50%;
+    text-align: center;
+}
+main {
+    margin: 5px 10px;
+    border-bottom: 1px solid darkgrey;
+    padding: 5px 0px;
+}
+.elencoMail {
+    background-color: lightgrey;
+    border-bottom: 1px solid black;
+    padding: 2px 5px;
+}
+.selected {
+    background-color: white;
+    font-style: italic;
+}
+.oggettoMail {
+    font-weight: bold;
+}
+.testoMail {
+    color: darkslategray;
+}
+footer {
+    margin: 5px 10px;
+}
+footer>p {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
